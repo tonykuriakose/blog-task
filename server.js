@@ -13,8 +13,8 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: "http://localhost:3000", // Remove the trailing slash
-  credentials: true,  // Enable credentials for cookies, tokens
+  origin: "https://blog-task-client.onrender.com",
+  credentials: true,  
 }));
 
 
